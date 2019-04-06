@@ -1,0 +1,7 @@
+<div class="phx-hero">
+  <h2>Hello Phoenix!</h2>
+
+  <p>
+    <a href="<%= Routes.hello_path(@conn, :show, "Frank") %>">Say Hello to Frank!</a>
+  </p>
+</div>
